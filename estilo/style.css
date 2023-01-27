@@ -118,6 +118,12 @@ h1 {
 /*----------------------------------------------pagina 2-----------------------------------------------*/
 /*---quem sou eu */
 
+section#pagina2.img03 {
+    min-width: 350px;
+    max-width: 2500px;
+}
+
+
 section > picture > img {
     width: 80%;
     max-width: 1500px;
@@ -186,6 +192,11 @@ p#quemsoueu {   /* >> dentro do corpo */
 
 /*-------------------------------------------pagina 3----------------------------------------------------*/
 /*----Meus Projetos----*/
+
+section#pagina3.img03 {
+    min-width: 350px;
+    max-width: 2500px;
+}
 
 section#pagina3 {   
     padding: 50px;
@@ -299,15 +310,13 @@ section#divs {
 
 /*----------------------------------------pagina 4------------------------------------------------------*/
 /*------------------Minhas Habilidades----------------*/
-
-section#pagina04 {   
+section#pagina4 {   
     color: rgb(221, 235, 213);
     background-attachment: fixed;
     width: auto;  
     height: 900px;
     padding: 20px;
     max-width: 1800px;
-
 }
 
 section.img04 {
