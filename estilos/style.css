@@ -10,15 +10,17 @@
 }
 
 body {
-    background-color: rgb(0, 0, 0);  
-    margin-left: auto;
+    background-color: rgb(232, 228, 228);  
 }
 
 main {
-    width: auto;
     display: block;
-    background-size: contain;
+    background-size: cover;
     background-color: red;
+}
+
+body > section {
+    width: 800px;
 }
 
 header {
@@ -192,19 +194,24 @@ p#quemsoueu {   /* >> dentro do corpo */
 /*-------------------------------------------pagina 3----------------------------------------------------*/
 /*----Meus Projetos----*/
 
+
 section#pagina3 {   
+    padding: 50px;
+    background-color: black;
+    color: rgb(7, 7, 7);
     background-attachment: fixed;
     width: auto;  
     height: 100%;
     max-width: 1800px;
-    padding-top: 20px;
+
 }
 
 section.img03 {
+    background-color: black;
     background-image: url(../imagens/forest.jpeg.jpeg);
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -304,7 +311,7 @@ section#pagina4 {
     color: rgb(221, 235, 213);
     background-attachment: fixed;
     width: auto;  
-    height: auto;
+    height: 900px;
     padding: 20px;
     max-width: 1800px;
 }
@@ -372,16 +379,12 @@ div#d2 {
 
 footer {
     background-color: rgb(0, 0, 0);
-    height: 10px;
-   
+    text-align: center;  
 }
 
 footer > p {
     color: white;
     font-size: larger;
-    text-align: center;
-
-    background-color: rgb(0, 0, 0);
 }
 
 footer > p > a {
