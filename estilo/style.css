@@ -12,20 +12,21 @@
 body {
     background-color: rgb(0, 0, 0);  
     margin-left: auto;
+    overflow-x: hidden;
 }
 
 main {
     width: auto;
     display: block;
     background-size: contain;
-    background-color: red;
+    background-color: rgb(0, 0, 0);
 }
 
 header {
     background-color: rgb(0, 0, 0);
     padding: 5px;
     max-width: 1800px;
-    width: auto;
+    width: 100vw;
 }
 
 abbr {
@@ -64,7 +65,7 @@ nav#links {
 
 
 i#burguer {
-    width: auto;
+    width: 100vw;
     background-color: rgb(0, 0, 0);
     display: block;
     text-align: center;
@@ -102,7 +103,7 @@ a:hover {
 section#principal {   
     color: rgb(221, 235, 213);
     background-attachment: fixed;
-    width: auto;  
+    width: 100vw;  
     height: 800px;
     padding: 20px;
     max-width: 1800px;
@@ -136,7 +137,6 @@ h1 {
 /*----------------------------------------------pagina 2-----------------------------------------------*/
 /*---quem sou eu */
 
-
 section > picture > img {
     width: 80%;
     max-width: 1500px;
@@ -146,20 +146,38 @@ section > picture > img {
     margin-right: auto;        
 }
 
+#imgfundo {
+    padding-right: 30px;
+}
+
 #fotoperfil {   
-    width: 320px;
+    min-width: 150px;
+    max-width: 290px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
+    padding-right: 15px;
+
 }
 
-section#pagina2 {
-    background-image: url(../imagens/onda2.jpeg);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-size: cover;
+section#pagina2 {   
+    color: rgb(221, 235, 213);
     background-attachment: fixed;
+    width: 100vw;  
+    height: 850px;
+    padding: 20px;
+    max-width: 1800px;
+
+}
+ 
+section.img002 {
+    background-image: url(../imagens/onda2.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100vw;
 }
 
 h2 {
@@ -181,26 +199,33 @@ h2 {
     background-size: cover;
 } 
 
-*/
+
 p#quemsoueu {   /* >> dentro do corpo */
     background-attachment: fixed;
-    width: auto;  
-    height: 800px;
-    max-width: 1800px;
-
 }
 
-#intro { /* >> o corpo */
-    color:black;
-    background-image: url(../imagens/marpreto.jpeg);
-    background-position: center center ;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+
+section#intro{ /* >> o corpo */
     height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+section#intro > p {
+    margin-right: 10px;
+}
+
+section.imgintro {
+    background-image: url(../imagens/marpreto.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100vw;
+}
+
+
 
 
 /*-------------------------------------------pagina 3----------------------------------------------------*/
@@ -208,7 +233,7 @@ p#quemsoueu {   /* >> dentro do corpo */
 
 section#pagina3 {   
     background-attachment: fixed;
-    width: auto;  
+    width: 100vw;  
     height: 100%;
     max-width: 1800px;
     padding-top: 20px;
@@ -317,7 +342,7 @@ section#divs {
 section#pagina4 {   
     color: rgb(221, 235, 213);
     background-attachment: fixed;
-    width: auto;  
+    width: 100vw;  
     height: auto;
     padding: 20px;
     max-width: 1800px;
@@ -333,14 +358,14 @@ section.img04 {
 }
 
 #habilidades {
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 800;
     font-size: 2.9em;
 }
 
 
 h3 {
-    color: rgb(255, 255, 255);
+    color: rgb(234, 231, 231);
     text-align: center;
     font-family: var(--fonte2);
     font-size: 1.8em;
@@ -367,6 +392,9 @@ div#d1 {
 section#div1 {
     display: inline-block;
     text-align: center;
+    padding: 10px;
+    margin-right: 50px;
+    margin-left: 20px;
 }
 
 div#d2 {
