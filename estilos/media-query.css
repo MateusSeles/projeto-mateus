@@ -39,7 +39,7 @@ Grandes telas: acima de 1200px  */
     }
 
     nav > a {
-        background-color: rgb(255, 118, 118);
+        background-color: rgb(111, 6, 6);
         margin: 20px;
         display: inline;
         width: 100vw;
@@ -54,7 +54,7 @@ Grandes telas: acima de 1200px  */
     }
     
     nav > a {
-        background-color: rgb(255, 118, 118);
+        background-color: rgb(16, 1, 32);
         margin: 20px;
         display: inline;
         width: 100vw;
