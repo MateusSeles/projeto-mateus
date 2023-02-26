@@ -306,6 +306,16 @@ section#divs {
     font-weight: 800;
 }
 
+#dividade:hover {
+    background-image: url(../imagens/fundoidade.png);
+    background-size: cover;
+}
+
+#dividade > a:hover {
+    color: rgb(255, 1, 1);
+    font-weight: 800;
+}
+
 #divhoras:hover {
     background-image: url(../imagens/horas.png);
     background-size: cover;
